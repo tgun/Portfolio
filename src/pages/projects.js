@@ -25,7 +25,7 @@ export default () => {
 							<p className="card-text">Fisher is an all in one managment and membership software for the Community Bible Study ministry.
 							I worked to streamline the software, removing bugs, increasing overall application speed, and introducing new and improved features for the members of CBS.
 							</p>
-							<a href="#" class="btn btn-primary">See the Site!</a>
+							<a href="https://fisher.communitybiblestudy.org/" target="_blank" class="btn btn-primary">See the Site!</a>
 						</div>
 					</div>
 				</div>
@@ -36,7 +36,7 @@ export default () => {
 							<h5 className="card-title">ZBase</h5>
 							<p className="card-text">A Minecraft Classic custom server software, in .NET Core.
 							This project highlights a large array of skills, from REST API Consumption, custom network protocol work, to multi-threaded systems working together.</p>
-							<a href="#" class="btn btn-primary">See the Code!</a>
+							<a href="https://github.com/umby24/ZBase/tree/dotnetcore" target="_blank" class="btn btn-primary">See the Code!</a>
 						</div>
 					</div>
 				</div>
@@ -47,7 +47,7 @@ export default () => {
 							<h5 className="card-title">Managed Sockets</h5>
 							<p className="card-text">Managed Sockets is a A simple, Asynchronous, event-driven TCP socket library for c#. The purpose of this project was to create a intermidatery socket layer for ZBase that could be used at scale.
 							</p>
-							<a href="#" class="btn btn-primary">See the Code!</a>
+							<a href="https://github.com/umby24/ManagedSockets/tree/dotnetcore" target="_blank" class="btn btn-primary">See the Code!</a>
 						</div>
 					</div>
 				</div>
@@ -56,7 +56,7 @@ export default () => {
 						<div className="card-body">
 							<h5 className="card-title">Home Inspection Specialists</h5>
 							<p className="card-text">I created the website for the (now out of business) home inspection company, Home Inspection Specialists. The source code is still available.</p>
-							<a href="#" class="btn btn-primary">See the Code!</a>
+							<a href="https://github.com/tgun/HIS" target="_blank" class="btn btn-primary">See the Code!</a>
 						</div>
 					</div>
 				</div>
