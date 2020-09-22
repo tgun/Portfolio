@@ -25,6 +25,7 @@ export default () => {
 				title="Tommy Roberts developer profile"
 				content="I am a multi-talented IT professional with a long experience in software development. Feel free to learn more on the site or at the links below!"
 				extras={getSocialMediaButtons()}
+				id="top"
 			/>
 			
 			<SkillSection />

@@ -3,7 +3,7 @@ import '../style/about.scss';
 
 export default () => {
 	return (
-		<div className="about-section rounded container-fluid p-4">
+		<div id="about" className="about-section rounded container-fluid p-4">
 			<div className="row text-center mb-2">
 				<div className="col-md-12">
 					<h1 className="mb-4">About</h1>

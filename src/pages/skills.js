@@ -4,7 +4,7 @@ import constants from '../common/constants.js';
 
 export default () => {
 	return (
-		<div className="container">
+		<div id="skills" className="container">
 			<div className="row text-center mb-2">
 				<div className="col-md-12">
 					<h1>Skills</h1>
