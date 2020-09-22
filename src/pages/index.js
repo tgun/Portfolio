@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'react-bootstrap';
 
 import Jumbo from '../components/jumbotron.js';
 import InfoBox from '../components/infobox.js';
@@ -11,8 +12,8 @@ function getSocialMediaButtons() {
 	return (
 		<React.Fragment>
 			<p>
-				<a className="btn btn-primary my-2" href="https://github.com/tgun/">Github</a>
-				<a className="btn btn-secondary my-2" href="https://www.linkedin.com/in/lawrence-roberts-67255269/">LinkedIn</a>
+				<Button variant="primary" className="my-2" href="https://github.com/tgun/">Github</Button>
+				<Button variant="secondary" className="my-2" href="https://www.linkedin.com/in/lawrence-roberts-67255269/">LinkedIn</Button>
 			</p>
 		</React.Fragment>
 	);
