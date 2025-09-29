@@ -1,15 +1,17 @@
 import React from 'react';
-import {Jumbotron, Container} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import '../style/jumbo.scss';
 
-export default (props) => {
+const Jumbo = (props) => {
 	return (
-		<Jumbotron>
+		<div className="jumbotron">
 			<Container>
 				<h1>{props.title}</h1>
 				<p className="lead">{props.content}</p>
 				{props.extras}
 			</Container>
-		</Jumbotron>
+		</div>
 	);
 };
+
+export default Jumbo;

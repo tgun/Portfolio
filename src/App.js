@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import TopBar from './components/topbar';
-import Main from './pages/index';
+import TopBar from './components/topbar.js';
+import Main from './pages/index.js';
 import './App.scss';
 
 function App() {

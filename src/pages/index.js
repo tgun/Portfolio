@@ -1,8 +1,7 @@
 import React from 'react';
-import {Button} from 'react-bootstrap';
+import {Button, Container} from 'react-bootstrap';
 
 import Jumbo from '../components/jumbotron.js';
-import InfoBox from '../components/infobox.js';
 
 import SkillSection from './skills.js';
 import AboutSection from './about.js';
@@ -23,15 +22,17 @@ export default () => {
 	return (
 		<div>
 			<Jumbo 
-				title="Tommy Roberts developer profile"
-				content="I am a multi-talented IT professional with a long experience in software development. Feel free to learn more on the site or at the links below!"
+				title="Tommy Roberts - Information Security Engineer II"
+				content="Cybersecurity professional with extensive experience in both software development and information security. I specialize in building secure systems and protecting critical infrastructure. Explore my work below!"
 				extras={getSocialMediaButtons()}
 				id="top"
 			/>
-			
-			<SkillSection />
-			<AboutSection />
-			<ProjectSection />
+			<Container>
+				<SkillSection />
+				<AboutSection />
+				<ProjectSection />
+			</Container>
+
 		</div>
 	);
 };

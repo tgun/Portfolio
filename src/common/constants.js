@@ -1,39 +1,62 @@
 let backendSkills = [
 	"C# / ASP.NET / .NET Core",
 	"Java / Spring / JBoss",
+	"Python / Django / Flask",
 	"MSSQL, PostgreSQL, MongoDB",
-	"NodeJS"
+	"NodeJS / Express",
+	"RESTful APIs & Microservices",
+	"Secure Coding Practices"
 ];
 
 let frontendSkills = [
 	"React/Redux",
-	"ASP.NET Razer",
-	"JQuery",
-	"AngularJS (v1)"
+	"ASP.NET Razor",
+	"jQuery",
+	"AngularJS (v1)",
+	"Bootstrap / CSS3",
+	"Secure Frontend Development"
 ];
 
 let securitySkills = [
-	"Alert Monitoring",
-	"Incident Response",
-	"Manual and tool assisted virus removal",
-	"Malware Behavioral Analysis"
+	"Security Operations Center (SOC)",
+	"SIEM/SOAR Implementation",
+	"Incident Response & Forensics",
+	"Threat Intelligence Analysis",
+	"Vulnerability Management",
+	"Risk Assessment & Compliance",
+	"Security Architecture Design",
+	"Identity & Access Management"
 ];
 
 let pentestingSkills = [
-	"Kali Linux",
-	"Metasploit Framework"
+	"Kali Linux / Parrot OS",
+	"Metasploit Framework",
+	"Burp Suite Professional",
+	"Nmap / Nessus",
+	"OWASP Testing Methodology",
+	"Social Engineering Toolkit",
+	"Web Application Testing",
+	"Network Penetration Testing"
 ];
 
 let adminSkills = [
-	"Active Directory administration",
-	"Virtualization administration (vSphere, XenServer)"
+	"Active Directory / Azure AD",
+	"VMware vSphere / Hyper-V",
+	"Windows Server / Linux Administration",
+	"PowerShell / Bash Scripting",
+	"Network Security Configuration",
+	"Cloud Security (AWS/Azure)"
 ];
 
 let generalSkills = [
-	"Proficient in use of *nix operating systems",
-	"Working knowledge of various scripting languages (Python, bash, batch)",
-	"Experience working in Agile and Scaled Agile (SAFe) development patterns",
-	"Team Management experience"
+	"DevSecOps / CI/CD Security",
+	"Agile & Scaled Agile (SAFe)",
+	"Security Training & Awareness",
+	"Technical Documentation",
+	"Cross-functional Team Leadership",
+	"Regulatory Compliance (NIST, ISO 27001)",
+	"Security Program Development",
+	"Automation & Orchestration"
 ];
 
 export default {backendSkills, frontendSkills, securitySkills, pentestingSkills, adminSkills, generalSkills};

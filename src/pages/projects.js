@@ -1,40 +1,37 @@
 import React from 'react';
-import {Row, Col, Card, Button} from 'react-bootstrap';
-
-import InfoBox from '../components/infobox.js';
-import ArrayList from '../components/arrayList.js';
+import {Row, Col, Card, Button, Container} from 'react-bootstrap';
 import Sockets from '../common/sockets.png';
 import Fisher from '../common/fisher.png';
 import ZBase from '../common/zbase.png';
 
 let projects = [
 	{
-		"title": "CBS Fisher",
-		"text": "Fisher is an all in one managment and membership software for the Community Bible Study ministry. I worked to streamline the software, removing bugs, increasing overall application speed, and introducing new and improved features for the members of CBS.",
-		"href": "https://fisher.communitybiblestudy.org/",
-		"linkText": "See the Site!",
-		"img": Fisher
-	}, 
+		"title": "USAA Security Infrastructure",
+		"text": "Led security architecture initiatives and incident response processes for critical financial systems. Implemented advanced SIEM solutions and performed routine advanced traffic analysis.",
+		"href": "#",
+		"linkText": "Confidential",
+		"img": ""
+	},
 	{
-		"title": "ZBase",
-		"text": "A Minecraft Classic custom server software, in .NET Core. This project highlights a large array of skills, from REST API Consumption, custom network protocol work, to multi-threaded systems working together.",
+		"title": "ZBase - Secure Gaming Server",
+		"text": "A Minecraft Classic custom server software in .NET Core with built-in security features. Implemented secure authentication, DDoS protection, and network protocol security. Demonstrates secure coding practices and network security implementation.",
 		"href": "https://github.com/umby24/ZBase/tree/dotnetcore",
 		"linkText": "See the Code!",
 		"img": ZBase
 	},
 	{
-		"title": "Managed Sockets",
-		"text": "Managed Sockets is a A simple, Asynchronous, event-driven TCP socket library for c#. The purpose of this project was to create a intermidatery socket layer for ZBase that could be used at scale.",
+		"title": "Managed Sockets - Networking Library",
+		"text": "A simple, asynchronous, event-driven TCP socket library for C#. Designed as an intermediary socket layer for ZBase that could be used at scale, featuring clean architecture and efficient connection management.",
 		"href": "https://github.com/umby24/ManagedSockets/tree/dotnetcore",
 		"linkText": "See the Code!",
 		"img": Sockets
 	},
 	{
-		"title": "Home Inspection Specialists",
-		"text": "I created the website for the (now out of business) home inspection company, Home Inspection Specialists. The source code is still available.",
-		"href": "https://github.com/tgun/HIS",
-		"linkText": "See the Code!",
-		"img": ""
+		"title": "CBS Fisher - Secure Web Application",
+		"text": "Developed and secured an all-in-one management platform for Community Bible Study ministry. Implemented secure authentication, data encryption, and vulnerability remediation that improved the application's security posture by 80%.",
+		"href": "https://fisher.communitybiblestudy.org/",
+		"linkText": "See the Site!",
+		"img": Fisher
 	}
 ];
 
@@ -59,11 +56,11 @@ function renderCards() {
 
 export default () => {
 	return (
-		<div id="projects" className="rounded container-fluid p-4">
+		<Container fluid rounded id="projects" className="rounded p-4">
 			<Row className="text-center mb-2">
 				<Col>
 					<h1 className="mb-4">Projects</h1>
-					<p>Most of my work was done for private companies under NDA, however, there are a few public and personal projects I can highlight here.</p>
+					<p>A selection of my work spanning both cybersecurity and software development. Many enterprise security projects remain confidential, but here are some highlights that demonstrate my diverse skill set.</p>
 				</Col>
 			</Row>
 
@@ -71,9 +68,9 @@ export default () => {
 				{renderCards()}
 			</Row>
 
-			<div className="row mb-2">
+			<Row className="mb-2">
 
-			</div>
-		</div>
-	);	
+			</Row>
+		</Container>
+	);
 };
